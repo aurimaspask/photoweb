@@ -1,0 +1,27 @@
+// ======================================
+//  Layout Container Styles
+// ======================================
+
+// Main content
+
+.row {
+  --bs-gutter-x: 0.5rem;  
+  --bs-gutter-y: -1rem;
+}
+
+hr.solid {
+  height: 1px;
+  position: relative;
+  padding-left: 17px;
+  padding-right: 17px;
+  border: none;
+}
+
+@include media-breakpoint-only(xs) {
+  .small-margin {
+      margin-top: 8px;
+  }
+}  
+
+
+

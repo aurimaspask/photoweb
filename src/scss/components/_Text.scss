@@ -1,0 +1,117 @@
+// ======================================
+//  Title Styles
+// ======================================
+.main-page-title {
+    @include title-top;
+    @include media-breakpoint-up(xs) {
+        bottom: 3rem;
+        font-size: 13px;
+        font-weight: 600;   
+    }
+    @include media-breakpoint-up(md) {
+        bottom: 3rem;
+        font-size: 15px;
+        font-weight: 600; 
+    }
+    @include media-breakpoint-up(lg) {
+        bottom: 3rem;
+        font-size: 15px;
+        font-weight: 600; 
+    }
+    @include media-breakpoint-up(xl) {
+        bottom: 4rem;
+        font-size: 20px;
+        font-weight: 600;   
+    }
+    @include media-breakpoint-up(xxl) {
+        bottom: 4rem;
+        font-size: 20px;
+        font-weight: 600;    
+    }
+
+}
+
+.page-title {
+    @include title-bottom;
+    @include media-breakpoint-up(xs) {
+        top: 3rem;
+        font-size: 13px;
+        font-weight: 600;   
+    }
+    @include media-breakpoint-up(md) {
+        top: 3rem;
+        font-size: 15px;
+        font-weight: 600; 
+    }
+    @include media-breakpoint-up(lg) {
+        top: 4rem;
+        font-size: 15px;
+        font-weight: 600; 
+    }
+    @include media-breakpoint-up(xl) {
+        top: 4rem;
+        font-size: 20px;
+        font-weight: 600;   
+    }
+    @include media-breakpoint-up(xxl) {
+        top: 6rem;
+        font-size: 30px;
+        font-weight: 600;    
+    }
+}
+
+.film-title {
+    @include title-bottom;
+    @include media-breakpoint-up(xs) {
+        top: 2rem;
+        font-size: 15px;
+        font-weight: 500;   
+    }
+    @include media-breakpoint-up(md) {
+        top: 2rem;
+        font-size: 15px;
+        font-weight: 500; 
+    }
+    @include media-breakpoint-up(lg) {
+        top: 4rem;
+        font-size: 30px;
+        font-weight: 500; 
+    }
+}
+
+// ======================================
+//  Description Styles
+// ======================================
+
+.collaborators {
+    text-align: center;
+    position: relative;
+    top: 2rem;
+    margin-bottom: 3rem;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.film-description {
+    display: block;
+    font-size: 20px;
+    line-height: 1.5em;
+    text-transform: none;
+    letter-spacing: .01em;
+    font-weight: 550;
+    font-style: italic;
+    color: #000;
+    text-align: justify;
+    position: relative;
+    top: 2rem;
+    margin-bottom: 6rem;
+    @include media-breakpoint-up(xs) {
+        font-size: 15px;
+    }
+    @include media-breakpoint-up(md) {
+        font-size: 17px;
+    }
+    @include media-breakpoint-up(lg) {
+        font-size: 20px;
+    }
+}
