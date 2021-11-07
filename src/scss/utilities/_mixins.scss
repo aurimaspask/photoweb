@@ -5,7 +5,6 @@
 // Title captions
 @mixin title-top {
   position: relative;
-  font-family:  "Gill Sans Extrabold", sans-serif;
   bottom: 5rem;
   color: $captionColor;
   text-align: center;
@@ -16,7 +15,6 @@
 
 @mixin title-bottom {
   position: relative;
-  font-family:  "Gill Sans Extrabold", sans-serif;
   top: 6rem;
   color: $captionColor;
   text-align: center;

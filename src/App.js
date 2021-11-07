@@ -1,4 +1,5 @@
 import './index.scss';
+import  Footer from './components/footer';
 import  Work from './components/Work';
 import  About from './components/About';
 import  Contact from './components/Contact';
@@ -18,25 +19,30 @@ import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
-    <BrowserRouter>
-    <ScrollToTop />
-    <NavBar />
-      <Switch>
-        <Route component={Work} path='/' exact />
-        <Route component={About} path='/about' />
-        <Route component={Contact} path='/contact' />
-        <Route component={Brazzi} path='/brazzi' />
-        <Route component={Street} path='/street' />
-        <Route component={Jasmine} path='/jasmine' />
-        <Route component={Monika} path='/monika' />
-        <Route component={Katrina} path='/katrina' />
-        <Route component={Anna} path='/anna' />
-        <Route component={Palanga} path='/palanga' />
-        <Route component={Film} path='/film' />
-        <Route component={Dee} path='/dee' />
+    <div className="page-container">
+      <div className="content-wrap">
+        <BrowserRouter>
+        <ScrollToTop />
+        <NavBar />
+          <Switch>
+            <Route component={Work} path='/' exact />
+            <Route component={About} path='/about' />
+            <Route component={Contact} path='/contact' />
+            <Route component={Brazzi} path='/brazzi' />
+            <Route component={Street} path='/street' />
+            <Route component={Jasmine} path='/jasmine' />
+            <Route component={Monika} path='/monika' />
+            <Route component={Katrina} path='/katrina' />
+            <Route component={Anna} path='/anna' />
+            <Route component={Palanga} path='/palanga' />
+            <Route component={Film} path='/film' />
+            <Route component={Dee} path='/dee' />
 
-      </Switch>
-    </BrowserRouter> 
+          </Switch>
+          <Footer />
+        </BrowserRouter> 
+      </div>
+    </div>
     
   );
 }

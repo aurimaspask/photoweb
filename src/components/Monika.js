@@ -54,10 +54,10 @@ export default function Monika() {
                 <div class="col-md-4">
                     <img src={monika3} class="img-fluid" alt="monika-cover"/>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 small-margin">
                     <img src={monika4} class="img-fluid" alt="monika-cover"/>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 small-margin">
                     <img src={monika5} class="img-fluid" alt="monika-cover"/>
                 </div>
             </div>

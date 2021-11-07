@@ -115,3 +115,77 @@
         font-size: 20px;
     }
 }
+
+.contact-info {
+    text-align: center;
+    position: relative;
+    top: 1rem;
+    margin-bottom: 3rem;
+    font-size: 15px;
+    line-height: 2em;
+    font-weight: 400; 
+    @include media-breakpoint-up(xs) {
+        font-size: 14px;
+    }
+    @include media-breakpoint-up(md) {
+        font-size: 14px;
+    }
+    @include media-breakpoint-up(lg) {
+        font-size: 16px;
+    }
+}
+
+.contact-link {
+    color: #929292;
+    -webkit-transition: color .15s ease-out;
+    -moz-transition: color .15s ease-out;
+    -ms-transition: color .15s ease-out;
+    -o-transition: color .15s ease-out;
+    transition: color .15s ease-out;
+    padding-bottom: 0.05em;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(163,163,163,.3);
+    -webkit-transition: border-color .15s ease-out,color .15s ease-out;
+    -moz-transition: border-color .15s ease-out,color .15s ease-out;
+    -ms-transition: border-color .15s ease-out,color .15s ease-out;
+    -o-transition: border-color .15s ease-out,color .15s ease-out;
+    transition: border-color .15s ease-out,color .15s ease-out;  
+    &:hover {
+      color: #C1C1C1;  
+    }
+}
+
+.bio-des {
+    position: relative;
+    padding: 3rem;
+    margin: 2rem;
+    line-height: 2em;
+    font-weight: 400; 
+    font-size: 16px;
+    @include media-breakpoint-up(xs) {
+        font-size: 14px;
+        padding: 1rem;
+        margin: 0rem;
+    }
+    @include media-breakpoint-up(md) {
+        font-size: 14px;
+        padding: 1rem;
+        margin: 1rem;
+    }
+    @include media-breakpoint-up(lg) {
+        font-size: 14px;
+        padding: 2rem;
+        margin: 2rem;
+    }   
+    @include media-breakpoint-up(xl) {
+        font-size: 15px;
+        padding: 2rem;
+        margin: 2rem;
+    }  
+    @include media-breakpoint-up(xxl) {
+        font-size: 16px;
+        padding: 3rem;
+        margin: 2rem;
+    }        
+}

@@ -4,6 +4,20 @@
 
 // Main content
 
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+  @include media-breakpoint-only(xs) {
+    font-size: 12px;
+}
+}
+
+.content-wrap {
+  flex: 1;
+}
+
 .row {
   --bs-gutter-x: 0.5rem;  
   --bs-gutter-y: -1rem;
@@ -17,11 +31,19 @@ hr.solid {
   border: none;
 }
 
+.mt-n1 {
+  margin-top: -0.8rem;
+}
+
 @include media-breakpoint-only(xs) {
   .small-margin {
       margin-top: 8px;
   }
+  .mt-n1 {
+    margin-top: -1rem !important;    
+}
 }  
+
 
 
 

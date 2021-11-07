@@ -1,10 +1,7 @@
-$headerColor: #ffffff;
-$max-logo-width: 450px; 
-$fontsColor:  rgba(0,0,0,.57);
-$navcolor: #9E9E9E;
+
   
   .logo {
-    max-width: $max-logo-width;
+    max-width: 450px;
     display: flex;
   }
   
@@ -14,7 +11,7 @@ $navcolor: #9E9E9E;
     padding-bottom: 16px;
     padding-left: 16px;
     padding-right: 16px;
-    background-color: $headerColor;
+    background-color: $white;
     display: flex;
     flex-direction: column;
     align-items: center;
