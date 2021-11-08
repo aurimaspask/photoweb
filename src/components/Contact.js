@@ -17,7 +17,7 @@ export default function Contact() {
                 <a href="mailto:aurimaspask1@gmail.com">
                 aurimaspask1@gmail.com</a>
                 <br /> 
-                <a target="_blank" href="http://instagram.com/aurimaspaskphoto">
+                <a target="_blank" rel="noreferrer" href="http://instagram.com/aurimaspaskphoto">
                 Instagram</a> 
                 <br />
                 +37067397848  

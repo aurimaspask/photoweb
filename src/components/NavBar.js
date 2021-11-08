@@ -25,7 +25,7 @@ export default function NavBar() {
               </Navbar.Collapse>
               <Navbar.Brand>
                 <Link to="/" exact>
-                <img src={logo3} className="logo-small" alt='logo-image' />
+                <img src={logo3} className="logo-small" alt='logo' />
                 </Link>
               </Navbar.Brand> 
             </Navbar>
