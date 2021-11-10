@@ -1,6 +1,6 @@
 {
-  "homepage": "http://aurimaspask.github.io/apphotography",
-  "name": "apphotography",
+  "homepage": "http://aurimaspask.github.io/apaskphoto",
+  "name": "apaskphoto",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
